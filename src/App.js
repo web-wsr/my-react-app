@@ -1,6 +1,7 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import User from "./User";
+import MyButton from "./MyButton";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <h1>我的第一个 React App!</h1>
       <p>这是一个段落。</p>
       <User />
+      <MyButton />
     </div>
   );
 }

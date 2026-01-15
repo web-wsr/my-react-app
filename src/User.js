@@ -6,6 +6,8 @@ function user() {
     age: 25,
     city: "New York",
     country: "USA",
+    imageUrl: "https://i.imgur.com/yXOvdOSs.jpg",
+    imageSize: 90,
   };
 
   return (
@@ -14,6 +16,7 @@ function user() {
       <p>{user.age}</p>
       <p>{user.city}</p>
       <p>{user.country}</p>
+      <img src={user.imageUrl} alt="Profile" style={{ width: user.imageSize }} />
     </div>
   );
 }
