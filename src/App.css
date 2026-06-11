@@ -1,0 +1,25 @@
+/* 基础重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f5f5;
+  font-family: "Microsoft YaHei", sans-serif;
+  color: #333;
+}
+
+/* 容器 */
+.todo-container {
+  width: 600px;
+  margin: 50px auto;
+}
+
+.todo-wrap {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
