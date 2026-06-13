@@ -1,0 +1,51 @@
+/* 搜索区域 */
+.jumbotron {
+  text-align: center;
+  padding: 40px 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.jumbotron div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.jumbotron input {
+  width: 320px;
+  height: 36px;
+  font-size: 14px;
+  border: 1px solid #dcdfe6;
+  border-radius: 4px;
+  padding: 0 12px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.jumbotron input:focus {
+  border-color: #409eff;
+  box-shadow: 0 0 0 2px rgba(64, 158, 255, 0.2);
+}
+
+.jumbotron button {
+  height: 36px;
+  padding: 0 20px;
+  font-size: 14px;
+  color: #fff;
+  background: #409eff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.jumbotron button:hover {
+  background: #337ecc;
+}
